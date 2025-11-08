@@ -28,7 +28,7 @@ router.post("/logout", logout);
 router.post("/2fa/setup", setup2FA);
 
 //verify route
-router.post("/2fa/verify", verify2FA);
+router.post("/2fa/verify",  verify2FA);
 
 //reset route
 router.post("/2fa/reset", reset2FA);
