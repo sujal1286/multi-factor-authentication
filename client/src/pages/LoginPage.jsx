@@ -1,6 +1,6 @@
 import React from "react";
-import LoginForm from "../components/LoginForm.jsx";
-import Home from "./Home.jsx";
+import LoginForm from '../components/LoginForm';
+
 const LoginPage = () => {
   return <LoginForm />;
 };

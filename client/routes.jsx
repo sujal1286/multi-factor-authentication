@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
-import LoginPage from "../pages/LoginPage.jsx";
-import Setup2FA from "../pages/Setup2FA.jsx";
-import Home from "../pages/Home.jsx";
-import Verify2FA from "../pages/Verify2FA.jsx";
-import Error from "../pages/Error.jsx";
-import ProtectedRoute from "../components/ProtectedRoute.jsx";
+import LoginPage from "./src/pages/LoginPage.jsx";
+import Setup2FA from "./src/pages/Setup2FA.jsx";
+import Home from "./src/pages/Home.jsx";
+import Verify2FA from "./src/pages/Verify2FA.jsx";
+import Error from "./src/pages/Error.jsx";
+import ProtectedRoute from "./src/components/ProtectedRoute.jsx";
 
 const router = createBrowserRouter([
  {

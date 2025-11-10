@@ -1,6 +1,6 @@
-import { api } from "./api.js";
-export const register = async (username, password) => {
-    return await api.post("/auth/register", { username, password });
+import { api } from '../service/api.js';
+export const register = async (username, password, confirmPassword) => {
+    return await api.post("/auth/register", { username, password, confirmPassword }, { withCredentials: true });
 }
 
 export const loginUser = async (username, password) => {
